@@ -18,3 +18,34 @@ npm i react-week-picker # or yarn add react-week-picker
 * left arrow, right arrow, calendar SVG icons
 * NavBar
 
+## Example
+
+```bash
+import React from 'react';
+import './App.css';
+import { WeeklyCalendar } from 'react-week-picker';
+import 'react-week-picker/src/lib/calendar.css';
+
+function App() {
+
+  const handleJumpToCurrentWeek = (currenDate) => {
+    console.log(`current date: ${currenDate}`);
+  }
+
+  const handleWeekPick = (startDate, endDate) => {
+    console.log(`${startDate} to ${endDate}`);
+  }
+
+  return (
+    <div>
+      <WeeklyCalendar onWeekPick={handleWeekPick} jumpToCurrentWeekRequired={true} onJumpToCurrentWeek={handleJumpToCurrentWeek}/>
+    </div>
+  );
+}
+```
+
+in the above example jumpToCurrentWeekRequired and onJumpToCurrentWeek are optional props.
+* onWeekPick take a callbackfunction which takes week start date and week end date as parameters and will be called when the user selects any week.
+* jumpToCurrentWeekRequired is an optional prop which shows or hides a jump to current week button
+* The jump to current button on click will change the date to current date.
+* onJumpToCurrentWeek takes a callbackfunction which takes currentDate as parameters will be called when the jump to current week button is clicked
