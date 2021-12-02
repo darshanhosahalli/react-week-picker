@@ -2,6 +2,12 @@
 
 React week picker is a resuable calendar component that allows a user to select weeks. You can perform action on week select action and also provides an optional action 'jump to current week' to make the calendar jump to current week. Both actions can be provided a call back function to be called to execute custom code. 
 
+<div align="center">
+  <img width="436" heigth="398" src="https://react-week-picker.s3.ap-south-1.amazonaws.com/react-week-picker.png">
+</div>
+
+for a demo <a href="http://react-week-picker.s3-website.ap-south-1.amazonaws.com/">click here</a>
+
 ## Installation
 
 Run the npm installation cmd to install the dependency in your project:
