@@ -6,7 +6,7 @@ React week picker is a resuable calendar component that allows a user to select 
   <img width="436" heigth="398" src="https://react-week-picker.s3.ap-south-1.amazonaws.com/react-week-picker.png">
 </div>
 
-for a demo <a href="http://react-week-picker.s3-website.ap-south-1.amazonaws.com/">click here</a>
+for a demo <a href="http://react-week-picker.s3-website.ap-south-1.amazonaws.com/" target="_self">click here</a>
 
 ## Installation
 
